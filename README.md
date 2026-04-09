@@ -1,18 +1,7 @@
-## Getting Started
+This is a test harness for the Experimental Farm FRQ for AP CSA
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+It contains the Plot and Experimental Farm code provided by the original FRQ,
+plus a Farm matrix populated to (mostly) match the one in the FRQ.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+The tests in ExperimentalFarmTest can be executed to test the results expected,
+after getHighestYield() and sameCrop() are implemented.
